@@ -10,28 +10,11 @@ http://exocortex.com/products/crate
 
 The pre-compiled binaries support the following:
 
-- Maya 2016 Windows & Linux
-- Maya 2015 Windows & Linux
-- Maya 2014 Windows & Linux
-- Maya 2013 Windows & Linux
-- Maya 2012 Windows & Linux
-- Maya 2011 Windows & Linux
-- Maya 2010 Windows & Linux
-- 3DS Max 2016 Windows
-- 3DS Max 2015 Windows
-- 3DS Max 2014 Windows
-- 3DS Max 2013 Windows
-- 3DS Max 2012 Windows
-- 3DS Max 2011 Windows
-- 3DS Max 2010 Windows
-- Softimage 2015 Windows & Linux
-- Softimage 2014 Windows & Linux
-- Softimage 2013 Windows & Linux
-- Softimage 2012 Windows & Linux
-- Arnold 4.x Windows & Linux
-- Arnold 3.x Windows & Linux
-- Python 2.7 Windows
-- Python 2.6 Windows & Linux
+- Maya 2017 Windows 
+- Maya 2016 Windows 
+- Maya 2015 Windows 
+- Maya 2014 Windows 
+
 
 # License
 
@@ -74,11 +57,8 @@ the URL where you can download it.
 Install Cmake and then go into the build folder and run the appropriate batch file:
 
     cd _build
-    build-vs2008_x64.bat        # for Microsoft Visual Studio 2008
-    build-vs2010_x64.bat        # for Microsoft Visual Studio 2010
-    build-vs2012_x64.bat        # for Microsoft Visual Studio 2012
-    build-UnixDebug.sh          # for Linux, Fedora 9 and Fedora 14
-    build-UnixRelease.sh        # for linux, Fedora 9 and Fedora 14
+    build-vs2013_x64.bat        # for Microsoft Visual Studio 2012
+
 
 The build process will automatically make a deployment.  That deployment is located here:
 
